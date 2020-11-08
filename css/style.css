@@ -589,6 +589,7 @@ footer {
 }
 .customed {
   display: flex;
+  margin-top: 50px;
 }
 .customed-link-svg {
   width: 89px;
@@ -599,7 +600,7 @@ footer {
   border-radius: 4px;
 }
 .customed-item:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 27px;
 }
 .customed-link {
   height: 90px;
@@ -614,6 +615,9 @@ footer {
   text-align: center;
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.customed-container h2 {
+  margin: 0px;
 }
 .customed-item:focus,
 .customed-item:hover {
