@@ -154,7 +154,7 @@ main {
 
 .contacts-mail-tel .mail {
   height: 16px;
-  width: 12px;
+  width: 16px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -333,7 +333,6 @@ button {
 a:hover,
 a:focus {
   color: var(--accent-text-color);
-  font-weight: 900;
 }
 
 .container .button-primery-st:hover,
@@ -617,12 +616,18 @@ footer {
   padding-bottom: 94px;
 }
 .customed-container h2 {
+  font-size: 36px;
+  line-height: 1.17em;
   margin: 0px;
 }
 .customed-item:focus,
 .customed-item:hover {
   border: 1px solid #2196f3;
   border-radius: 4px;
+}
+.customed-item:focus .customed-link-svg,
+.customed-item:hover .customed-link-svg {
+  fill: var(--accent-text-color);
 }
 .images-list {
   display: block;
