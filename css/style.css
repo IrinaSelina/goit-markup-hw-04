@@ -28,8 +28,6 @@ html {
 }
 header {
   width: 100%;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 .header {
   display: flex;
@@ -70,8 +68,8 @@ nav {
 }
 .link {
   display: flex;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   align-content: center;
 }
 .logo {
@@ -168,7 +166,7 @@ main {
   fill: var(--accent-text-color);
 }
 .button-secondary {
-  color: var(--primary-text-color);
+  color: #212121;
 }
 .button button {
   padding: 6px 22px;
@@ -204,6 +202,8 @@ button {
 }
 .row-button {
   font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
   line-height: 1.63em;
   border: 0px;
   border-radius: 4px;
